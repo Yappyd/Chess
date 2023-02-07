@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Chess</string>
+    <string name="sbtn1">Старт</string>
+    <string name="sbtn2">Архив партий</string>
+    <string name="dialog_lbl">Продвижение пешки</string>
+    <string name="gbtn1">Повернуть доску</string>
+    <string name="gbtn2">Сдаться</string>
+    <string name="gbtn3">Ничья</string>
+    <string name="glbl1">Ход белых</string>
+    <string name="dalbl1">Выберите партию</string>
+    <string name="dabtn1">Просмотр</string>
+    <string name="dabtn2">Удалить</string>
+    <string name="dialog_choice_lbl">Выберите режим</string>
+    <string name="dialog_choice_btn1">Блиц</string>
+    <string name="dialog_choice_btn2">Блиц 3+2</string>
+    <string name="dialog_choice_btn3">Блиц 5</string>
+    <string name="dialog_choice_btn4">Рапид 10</string>
+    <string name="dialog_choice_btn5">Классик</string>
+    <string name="endgame_btn1">Просмотр партии</string>
+    <string name="start_lbl1">Шахматы</string>
+</resources>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:screenOrientation="portrait">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="50dp"
+            android:text="@string/dialog_choice_lbl"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnEsc"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|end"
+            android:background="@android:drawable/ic_menu_close_clear_cancel"
+            android:gravity="end"
+            app:backgroundTint="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/purple_500"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cbtn1"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:paddingLeft="37dp"
+            android:tag="1"
+            android:text="@string/dialog_choice_btn1"
+            android:textSize="18sp"
+            app:backgroundTint="#00FFFFFF" />
+
+        <Button
+            android:id="@+id/btnInfo1"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            android:background="@android:drawable/ic_dialog_info"
+            app:backgroundTint="#00BCD4"
+            app:backgroundTintMode="multiply"
+            app:iconTint="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/purple_500"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cbtn2"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:paddingLeft="37dp"
+            android:tag="2"
+            android:text="@string/dialog_choice_btn2"
+            android:textSize="18sp"
+            app:backgroundTint="#00FFFFFF" />
+
+        <Button
+            android:id="@+id/btnInfo2"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            android:background="@android:drawable/ic_dialog_info"
+            app:backgroundTint="#00BCD4"
+            app:backgroundTintMode="multiply" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/purple_500"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cbtn3"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:paddingLeft="37dp"
+            android:tag="3"
+            android:text="@string/dialog_choice_btn3"
+            android:textSize="18sp"
+            app:backgroundTint="#00FFFFFF" />
+
+        <Button
+            android:id="@+id/btnInfo3"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            android:background="@android:drawable/ic_dialog_info"
+            app:backgroundTint="#00BCD4"
+            app:backgroundTintMode="multiply" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/purple_500"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cbtn4"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:paddingLeft="37dp"
+            android:tag="4"
+            android:text="@string/dialog_choice_btn4"
+            android:textSize="18sp"
+            app:backgroundTint="#00FFFFFF" />
+
+        <Button
+            android:id="@+id/btnInfo4"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            android:background="@android:drawable/ic_dialog_info"
+            app:backgroundTint="#00BCD4"
+            app:backgroundTintMode="multiply" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/purple_500"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cbtn5"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:paddingLeft="37dp"
+            android:tag="5"
+            android:text="@string/dialog_choice_btn5"
+            android:textSize="18sp"
+            app:backgroundTint="#00FFFFFF" />
+
+        <Button
+            android:id="@+id/btnInfo5"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            android:background="@android:drawable/ic_dialog_info"
+            app:backgroundTint="#00BCD4"
+            app:backgroundTintMode="multiply" />
+    </LinearLayout>
+
+</LinearLayout>
